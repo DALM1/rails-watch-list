@@ -11,6 +11,7 @@ gem "sprockets-rails"
 # Use postgresql as the database for Active Record
 gem "pg", "~> 1.1"
 
+
 gem 'sassc-rails'
 gem 'carrierwave', '~> 2.0'
 gem 'mini_magick', '~> 4.9'
