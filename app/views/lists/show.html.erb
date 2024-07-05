@@ -1,0 +1,9 @@
+<h1><%= @list.name %></h1>
+
+<%= image_tag @list.image.url if @list.image.present? %>
+<p><%= @list.description %></p>
+<p>Price per night: <%= @list.price_per_night %></p>
+<p>Number of guests: <%= @list.number_of_guests %></p>
+
+<%= link_to 'Edit', edit_list_path(@list) %>
+<%= link_to 'Back', lists_path %>
